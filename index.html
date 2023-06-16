@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collemory</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <!--  Favicon -->
+    <link rel="icon" href="static/imgs/favicon.ico">
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Cursor -->
+    <!-- <link rel="stylesheet" href="static/cursor/style.css"> -->
+    <script src="static/cursor/index.js"></script>
+    <link rel="stylesheet" href="../static/MS-Cursor-master/style.css">
+    <script src="../static/MS-Cursor-master/index.js"></script>
+
+    <!-- Locomotive Scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.css">
+
+    <!-- Flickity Carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+</head>
+
+<body>
+    <div data-scroll-container="" class="locomotive-scroll-area">
+        <section data-scroll-section class="landing-page">
+            <div class="left">
+                <h1 data-scroll="" data-scroll-speed="1">Collemory</h1>
+                <p data-scroll="" data-scroll-speed="1" >Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Quaerat ipsum voluptatum consectetur enim maxime obcaecati quisquam!
+                    Autem, error quasi. Eveniet dolorum voluptatum optio at inventore?</p>
+                <div class="buttons">
+                    <a href="/">
+                        <button data-scroll="" data-scroll-speed="1" class="view-campus-button">View Campus</butto>
+                    </a>
+                    <a href="/">
+                        <button data-scroll="" data-scroll-speed="1" class="explore-button">Explore</button>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="static/imgs/Girl.gif" alt="landing-page-illustration">
+            </div>
+        </section>
+
+        <section data-scroll-section class="video-page">
+            <video class="video-bg" autoplay muted loop>
+                <source src="static/video/Collemory Video.mp4" type="video/mp4">
+            </video>
+            
+            <h2 class="updating-text">Collemory</h2>
+            <img class="scribble-dots" src="../static/imgs/scribble-2.svg">
+        </section>
+
+        <section data-scroll-section class="places-carousel-page">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <div class="carousel" data-flickity='{"autoPlay": true,  "wrapAround": true }'>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 1.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 2.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 3.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 4.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 5.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 6.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 7.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 8.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 9.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 10.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 11.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 12.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 13.png);"></div>
+                <div class="carousel-cell" style="background-image: url(static/imgs/carousel\ 14.png);"></div>
+            </div>
+            <div class="carousel-info">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quia autem velit quasi quam, voluptatibus alias dolore, consequuntur quae illum cumque molestiae consectetur iusto repudiandae eaque sed laboriosam eum. Temporibus!</p>
+            </div>
+        </section>
+
+        <section data-scroll-section class="mess-page">
+            <q>coming soon</q>
+        </section>
+
+    </div>
+
+
+    <!-- * Flickity | Locomotive Scroll-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true
+        });
+    </script>
+</body>
+
+
+</html>
