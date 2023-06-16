@@ -242,6 +242,7 @@ section {
 }
 
 .scribble-dots {
+    display: none;
     position: absolute;
     top: 60%;
     right: 0;
