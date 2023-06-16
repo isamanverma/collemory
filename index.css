@@ -98,15 +98,14 @@ section {
 .left>.buttons {
     display: flex;
     flex-direction: row;
-    gap: 1em;
     margin: 0;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .view-campus-button {
     background-color: var(--accent-color);
     font-family: var(--ff-fallback);
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 1em 2em;
     border: none;
     outline: none;
@@ -120,7 +119,7 @@ section {
 .view-campus-button:hover,
 .view-campus-button:focus {
     background-color: var(--primary-color);
-    font-size: 1.05em;
+    font-size: 1em;
     color: var(--accent-color);
     outline: 0.1rem solid var(--accent-color);
     box-shadow: 0.3em 0.3em var(--accent-color);
@@ -131,7 +130,7 @@ section {
 .explore-button {
     background-color: var(--background-color);
     font-family: var(--ff-fallback);
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--font-color-light);
     padding: 1em 2em;
     border: none;
@@ -147,7 +146,7 @@ section {
 .explore-button:focus {
     background-color: var(--primary-color);
     color: var(--background-color);
-    font-size: 1.05em;
+    font-size: 1em;
     outline: 0.1rem solid var(--background-color);
     box-shadow: 0.3em 0.3em var(--background-color);
     cursor: pointer;
