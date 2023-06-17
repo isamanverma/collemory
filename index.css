@@ -169,6 +169,9 @@ section {
         gap: 1em;
     }
 
+    .left h1{
+        font-size: 4em;
+    }
     .left {
         order: 1;
         margin-left: 10vh;
