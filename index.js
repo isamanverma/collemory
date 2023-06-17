@@ -1,3 +1,5 @@
+// * Cool type-writer updating text in video-page
+
 document.addEventListener("DOMContentLoaded", function () {
   const updatingText = document.querySelector('.updating-text');
   // const words = ["College", "Memory", "Fun", "Friends", "Talks"];
@@ -32,3 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
   typeWriterEffect();
 });
 
+
+// * Hiding cursor in phone
+
+if (window.innerWidth <= 768) {
+  const linkElement = document.getElementById('cursor-style');
+  linkElement.parentNode.removeChild(linkElement);
+}
