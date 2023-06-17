@@ -226,19 +226,6 @@ section {
     left: 50%
 }
 
-.scribble-dots {
-    display: none;
-    position: absolute;
-    top: 60%;
-    right: 0
-}
-
-.scribble-lines {
-    position: absolute;
-    top: 10em;
-    left: 0
-}
-
 @media only screen and (min-width:767px) and (max-width:1023px) {
     .landing-page {
         grid-template-columns: repeat(1, 1fr)
