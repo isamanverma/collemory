@@ -34,10 +34,3 @@ document.addEventListener("DOMContentLoaded", function () {
   typeWriterEffect();
 });
 
-
-// * Hiding cursor in phone
-
-if (window.innerWidth <= 768) {
-  const linkElement = document.getElementById('cursor-style');
-  linkElement.parentNode.removeChild(linkElement);
-}
