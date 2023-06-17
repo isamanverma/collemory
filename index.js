@@ -1,6 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const updatingText = document.querySelector('.updating-text');
-  const words = ["College", "Memory", "Fun", "Friends", "Talks"];
+  // const words = ["College", "Memory", "Fun", "Friends", "Talks"];
+  const words = ["Consectetur", "Adipisicing", "Elit", "Tempor", "Incididunt", "Magna"];
+
   let currentIndex = 0;
   let currentWord = words[currentIndex];
   let currentCharIndex = 0;
