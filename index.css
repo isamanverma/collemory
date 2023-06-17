@@ -23,27 +23,32 @@
 
 @font-face {
     font-family: Forum Regular;
-    src: url(static/fonts/Forum-Regular.ttf)
+    src: url(static/fonts/Forum-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: WorkSans-Light;
-    src: url(static/fonts/WorkSans-Light.ttf)
+    src: url(static/fonts/WorkSans-Light.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: WorkSans-Regular;
-    src: url(static/fonts/WorkSans-Regular.ttf)
+    src: url(static/fonts/WorkSans-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: Baron;
-    src: url(static/fonts/Baron.otf)
+    src: url(static/fonts/Baron.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: Made of Scar;
-    src: url(static/fonts/MadeofScars-Regular.ttf)
+    src: url(static/fonts/MadeofScars-Regular.ttf);
+    font-display: swap;
 }
 
 body {
