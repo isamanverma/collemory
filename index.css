@@ -250,18 +250,6 @@ section {
     margin: 0;
 }
 
-.scribble-dots {
-    display: none;
-    position: absolute;
-    top: 60%;
-    right: 0;
-}
-
-.scribble-lines {
-    position: absolute;
-    top: 10em;
-    left: 0;
-}
 
 /* ! LAPTOP: WORKS FINE */
 @media only screen and (min-width:767px) {
